@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #607d8b;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+.welcome-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.welcome-title {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 696;
+  font-style: normal;
+}
+
+.project-details {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.quote {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 696;
+  font-style: normal;
+  background-color: #607d8b;
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+.contact-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-link:hover {
+  color: #37474f; 
+}
+
+.contact-link:active {
+  color: #263238;
+}
+
+@media (max-width: 768px) {
+  .header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .logo {
+      margin-bottom: 10px;
+  }
+}
